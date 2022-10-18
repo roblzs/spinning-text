@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(12, 14, 20);
+}
+
+#text_wrapper {
+  width: 100%;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.xd {
+  font-size: 200px;
+  height: 200px;
+  color: rgb(255, 0, 43);
+  text-transform: capitalize;
+  position: absolute;
+  animation: rotate_text 10000ms linear;
+}
+
+.text-white {
+  color: #fff;
+}
+
+@keyframes rotate_text {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100vw);
+  }
+}
