@@ -30,7 +30,7 @@ body {
   color: rgb(255, 0, 43);
   text-transform: capitalize;
   position: absolute;
-  animation: rotate_text 10000ms linear infinite;
+  animation: rotate_text 5000ms linear infinite;
   white-space: nowrap;
   padding-right: 50px;
 }
